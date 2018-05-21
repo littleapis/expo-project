@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "project",
+    "description": "A very interesting project.",
+    "slug": "project",
+    "privacy": "public",
+    "sdkVersion": "27.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "githubUrl":"https://github.com/littleapis/expo-project.git",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.zhanneng.shuojiu",
+      "buildNumber":"0.0.1"
+    },
+    "android":{
+
+    }
+  }
+}
